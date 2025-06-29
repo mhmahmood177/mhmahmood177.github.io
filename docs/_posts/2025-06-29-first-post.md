@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Post"
-date: YYYY-MM-DD hh:mm:ss -0000
+date: 20256-06-26 23:30:30 -0000
 categories: test
 ---
 
