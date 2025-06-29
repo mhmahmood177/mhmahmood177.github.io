@@ -1,6 +1,8 @@
+---
 layout: page
 title: "First Post"
 permalink: /first-post
+---
 
 # Greetings!
 
