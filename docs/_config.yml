@@ -28,7 +28,7 @@ twitter_username: 'N/A'
 github_username:  mhmahmood177
 
 # Build settings
-theme: minima
+theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
 
