@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up Prometheus Proxmox VE Exporter to gain metrics from proxmox ✅"
+title: "Setting up Prometheus Proxmox VE Exporter to gain metrics from proxmox"
 date: 2025-07-09 20:55:00 -0000
 categories: runbooks
 ---
