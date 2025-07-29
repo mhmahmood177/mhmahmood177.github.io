@@ -134,7 +134,8 @@ WARNING: This is purely based on my own notes, and might not be completely corre
         check boolean column values
         
         #point current instance of Grafana to postgresql instance
-        
+
+        (this should be via a custom.ini file in /usr/local/grafana/conf
         change:
         [database]
         type = postgres
@@ -144,6 +145,8 @@ WARNING: This is purely based on my own notes, and might not be completely corre
         password = grafana_pass
         
         systemctl restart grafana-server
+
+        Also update the pg_hba.conf file to include the IP of the prod grafana host if you haven't already
         
         #check that everything works
         
@@ -156,7 +159,10 @@ WARNING: This is purely based on my own notes, and might not be completely corre
         curl -u admin:admin http://localhost:3000/api/search
         
         log into grafana ui
-        find a way of doing it programatically 
+        add a dashboard and check it works (can also check the db for activity in the relevant table, and established connections on the            grafana node to postgresql)
         check logs
+
+        nice to haves:
+        find a way of doing it programatically 
         
         ```
